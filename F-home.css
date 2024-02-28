@@ -30,6 +30,12 @@ h1 {
     text-align: center;
     color: azure;
 }
+h3{
+    text-align: center;
+    color: black;
+    font-family: cursive;
+    font-size: 20px;
+}
 
 ul {
     text-align: center;
