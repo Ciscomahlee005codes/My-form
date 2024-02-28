@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="F-home.css">
+    <title>Mara's Treat </title>
+</head>
+<body>
+    <header>
+        <h1>
+            Mara's Treat
+        </h1>
+        <!-- <div class="logo">
+            <figure>
+                <img class="logo" src="./Mara's pics/IMG-20230803-WA0015.jpg" alt="">
+            </figure> -->
+        </div>
+        <ul>
+            <li><a class="link-1" href="home.html">Home<i class="fa-solid fa-house"></i></a></li>
+            <li><a class="link-1" href="product.html">Products</a></li>
+            <li><a class="link-1" href="about.html">About Us<i class="fa-regular fa-address-card"></i></a></li>
+            <li><a class="link-1" href="contact.html">Contact  <i class="fa-solid fa-phone"></i></a></li>
+            <li><a class="link-1" href="fit.html">Join Fitness Program  <i class="fa-solid fa-dumbbell"></i></a></li>
+            <li><a class="link-1" href="#">Sign an account <i class="fa-solid fa-user"></i></a></li>
+        </ul>
+    </header>
+    <section>
+        <h2>Sign Up an Account</h2><br><br>
+        <div class="box">
+            <div class="form">
+                <label for=""></label>
+            <input type="text" placeholder="First Name"><br><br><br>
+
+            <label for=""></label>
+            <input type="text" placeholder="Last Name"><br><br><br>
+
+            <label for=""></label>
+            <input type="text" placeholder="Username" id="userName"><br><br><br>
+
+            <label for=""></label>
+            <input type="email" name="" id="" placeholder="Email Address"><br><br>
+
+            <label for=""></label><br>
+            <input type="" placeholder="State of Origin"><br><br>
+
+            <label for=""></label>
+            <input type="password" id="passWord" placeholder="Password"><i class="fa-regular fa-eye-slash" onclick="myCodes()"></i>
+            <br><br><br>
+              <button id="submitBtn">
+                Submit 
+              </button><br>
+            <hr><br>
+             <a class="already" href="log.html">Already have an account</a>
+            </div>
+        </div>
+    </section>
+
+      <script>
+          function myCodes() {
+  let passCodes = document.getElementById('passWord');
+  if (passCodes.type === "password") {
+    passCodes.type = "text"
+  }
+  else{
+    passCodes.type = "password"
+  }
+}
+      </script>
+    </body>
+    </html>

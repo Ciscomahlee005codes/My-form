@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(aliceblue, azure);
+}
+
+header {
+    background-color: #847a85;
+    color: rgb(18, 19, 19);
+    box-shadow: 2px 2px 2px 2px #666;
+}
+
+.logo {
+    border-radius: 20px;
+    width: 27.5%;
+    position: relative;
+    top: 5px;
+    margin-left: 1rem;
+}
+
+h1 {
+    font-family: Tangerine;
+    font-size: 76px;
+    text-align: center;
+    color: azure;
+}
+
+ul {
+    text-align: center;
+
+}
+
+ul li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+li .link-1 {
+    text-align: right;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+    margin: auto;
+    margin: auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+
+
+.search {
+    position: relative;
+    left: 130px;
+}
+
+.search-1 {
+    width: 90%;
+    height: 29px;
+}
+
+section {
+    background-image: url(.//Images/WhatsApp\ Image\ 2023-10-06\ at\ 11.02.05.jpeg);
+    border-radius: 100px;
+    width: 100%;
+    max-width: 900px;
+    height: 600px;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 6rem;
+    margin: 80px auto 0;
+    box-shadow: 0 65px 65px gray;
+
+}
+
+h2 {
+    font-size: 38px;
+    color: rgb(243, 227, 227);
+    /* position: relative;
+    right: 80px;
+    top: 40px; */
+
+}
+
+.form {
+    text-align: left;
+    margin-left: 3rem;
+}
+
+input {
+    width: 40%;
+    height: 40px;
+    font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#submitBtn {
+    margin-left: 14rem;
+    width: 22%;
+    height: 40px;
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 700;
+    border-radius: 30px;
+}
+
+#submitBtn:hover {
+    background-color: peachpuff;
+    color: black;
+    transform: translateY(-15%);
+    /* transition: width 2s linear 1s; */
+}
+
+hr {
+    width: 65%;
+}
+
+.already {
+    color: aliceblue;
+    font-size: 19px;
+    text-decoration: none;
+    margin-left: 11.5rem;
+}
+
+.already:hover {
+    text-decoration: underline;
+}
+
+.fa-eye-slash {
+    position: relative;
+    right: 2rem;
+    font-weight: 700;
+}
+
+.fa-eye-slash:hover {
+    opacity: 0.5;
+}
